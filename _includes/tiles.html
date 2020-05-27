@@ -5,6 +5,7 @@
 {% endif %}
 <section id="one" class="tiles">
   {% for tile in tiles limit:site.tiles-count %}
+  {% if tile.dir == page.dir%}
   <article>
     <span class="image">
       <img src="{{ tile.image }}" alt="" />
@@ -14,5 +15,6 @@
       <p>{{ tile.description }}</p>
     </header>
   </article>
+  {% endif %}
   {% endfor %}
 </section>
