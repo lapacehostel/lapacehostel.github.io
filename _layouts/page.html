@@ -25,6 +25,38 @@
 		</header>
 		{% if page.image %}<span class="image main"><img src="{{ site.baseurl }}/assets/images/{{ page.image }}" alt="" /></span>{% endif %}
 		{{ content }}
+    {% if page.bottom_large_image %}
+    <span class="image fit">
+      <a style="border-bottom: unset" href="{{ site.baseurl }}/assets/images/{{ page.bottom_large_image }}">
+      <img src="{{ site.baseurl }}/assets/images/{{ page.bottom_large_image }}" alt="" />
+      </a>
+    </span>
+    {% endif %}
+    <div class="box alt">
+    	<div class="row 50% uniform">
+        {% if page.bottom_small_image1 %}
+    		<div class="4u">
+          <a style="border-bottom: unset" href="{{ site.baseurl }}/assets/images/{{ page.bottom_small_image1 }}">
+          <img src="{{ site.baseurl }}/assets/images/{{ page.bottom_small_image1 }}" alt="" />
+          </a>
+        </div>
+        {% endif %}
+        {% if page.bottom_small_image2 %}
+        <div class="4u">
+          <a style="border-bottom: unset"  href="{{ site.baseurl }}/assets/images/{{ page.bottom_small_image2 }}">
+          <img src="{{ site.baseurl }}/assets/images/{{ page.bottom_small_image2 }}" alt="" />
+          </a>
+        </div>
+        {% endif %}
+        {% if page.bottom_small_image3 %}
+        <div class="4u$">
+          <a  style="border-bottom: unset" href="{{ site.baseurl }}/assets/images/{{ page.bottom_small_image3 }}">
+          <img src="{{ site.baseurl }}/assets/images/{{ page.bottom_small_image3 }}" alt="" />
+          </a>
+        </div>
+       {% endif %}
+    	</div>
+    </div>
 	</div>
 </section>
 
