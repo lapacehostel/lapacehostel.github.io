@@ -6,10 +6,11 @@ description: A Hostel located in Taitung.
 baseurl: "/lapace" # the subpath of your site, e.g. /blog
 url:  # the base hostname & protocol for your site
 author:
-street_address: 中山路119-3號
+address_english: No.119-3 Zhongshan(Jhongshan) Rd, Taitung City, Taiwan  (The next door is Shan-Ma Taxi Company)
+address_mandarin: 台東市中山路119-3號  ( 三馬計程車行的隔壁 )  臺東女中側門對面
 city:  台東市
 country: Taiwan
-phone: 0952-136857
+phone: 0952-136857  (10:00~22:00)
 
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
