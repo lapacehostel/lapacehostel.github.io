@@ -1,11 +1,11 @@
 <!-- Wrapper -->
 <div id="wrapper">
+	{% assign lang = page.dir %}
 
 <!-- Header -->
 <header id="header"{% if page.layout == "landing" %} class="alt style2"{% endif %}{% if page.layout == "home" %} class="alt"{% endif %}>
-	<a href="{{ "" | absolute_url }}/" class="logo"><strong>{{ site.title }}</strong> <span>{{ site.subtitle }}</span></a>
+	<a href="{% if lang == "/en/" %}{{ "/en" | absolute_url }}{% else %}{{ "" | absolute_url }}{% endif %}/" class="logo"><strong>{{ site.title }}</strong> <span>{{ site.subtitle }}</span></a>
 	<nav>
-		{% assign lang = page.dir %}
 	{% if lang == "/en/" %}
 	  {% capture link1 %}{{ site.baseurl }}{{ page.url | remove_first: "/en"}}{% endcapture %}
 	<a href="{{ link1 }}" >中文</a>
