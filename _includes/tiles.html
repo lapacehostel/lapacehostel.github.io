@@ -8,7 +8,7 @@
   {% if tile.dir == page.dir%}
   <article>
     <span class="image">
-      <img src="{{ tile.image }}" alt="" />
+      <img src="{{site.baseurl}}/assets/images/{{ tile.image }}" alt="" />
     </span>
     <header class="major">
       <h3><a href="{{ tile.url  | relative_url }}" class="link">{{ tile.title }}</a></h3>
