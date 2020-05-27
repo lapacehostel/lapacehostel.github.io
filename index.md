@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Home
+title: 首頁
 landing-title: 'mandarin'
 description: null
 author: null
