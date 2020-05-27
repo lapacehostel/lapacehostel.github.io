@@ -13,26 +13,19 @@
   {% capture link2 %}{{ site.baseurl }}/en{{ page.url}}{% endcapture %}
 	<a href="{{ link2 }}" > english</a>
 {% endif %}
-		<a href="#menu">Menu</a>
+		<a href="#menu"></a>
 	</nav>
 </header>
 
 <!-- Menu -->
 <nav id="menu">
 	<ul class="links">
-        {% for page in site.pages %}
-		    {% if page.layout == "home" %}
+    {% for page in site.pages %}
+			{% if page.dir == lang %}
+		    {% if page.layout == "home" or page.nav-menu == true  %}
 		        <li><a href="{{ "" | absolute_url }}/">{{ page.title }}</a></li>
 	    	{% endif %}
+	  	{% endif %}
 		{% endfor %}
-		{% for page in site.html_pages %}
-		    {% if page.layout != "home" and page.nav-menu == true %}
-		        <li><a href="{{ page.url | absolute_url }}">{{ page.title }}</a></li>
-		    {% endif %}
-		{% endfor %}
-	</ul>
-	<ul class="actions vertical">
-		<li><a href="#" class="button special fit">Get Started</a></li>
-		<li><a href="#" class="button fit">Log In</a></li>
 	</ul>
 </nav>
