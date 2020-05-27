@@ -9,7 +9,7 @@ bottom_small_image3: sunny_room1.jpg
 
 ---
 ### Amenities
-The room features a fan, table, computer, hair dryer, air-conditioning, wooden floors and a balcony.  A bicycle can be used for free.
+The room features a fan, table, computer, hair dryer, air-conditioning, wooden floors and a balcony. A bicycle can be used for free.
 ### Room price
 * weekdays : 1400/2 persons
 * chinese new year : 2200/2 persons
