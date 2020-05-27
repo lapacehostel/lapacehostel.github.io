@@ -23,7 +23,7 @@
     {% for page in site.pages %}
 			{% if page.dir == lang %}
 		    {% if page.layout == "home" or page.nav-menu == true  %}
-		        <li><a href="{{ "" | absolute_url }}/">{{ page.title }}</a></li>
+		        <li><a href="{{ page.url | relative_url }}">{{ page.title }}</a></li>
 	    	{% endif %}
 	  	{% endif %}
 		{% endfor %}
