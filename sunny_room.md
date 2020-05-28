@@ -17,4 +17,4 @@ bottom_small_image3: sunny_room1.jpg
 	 9500/1人
 	 11500/2人
 
-### 陽台 test
+### 陽台
