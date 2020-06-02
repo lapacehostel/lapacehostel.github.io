@@ -3,8 +3,7 @@ layout: page
 title: 綠荷小雅房
 nav-menu: true
 image: green_lotus_room1.jpg
-
-
+order: "3"
 ---
 ### 設備&服務
 房間約2.5坪，單面窗，設施有：冷氣、電扇、獨立筒雙人床墊、防蠻抗菌枕、純棉or排汗透氣床組、WiFi、吹風機、書桌、抬燈、咖啡茶包、衣櫃、木質地板、沙發、拖鞋、免費單車、旅遊諮詢

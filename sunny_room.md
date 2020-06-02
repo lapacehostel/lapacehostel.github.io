@@ -6,7 +6,7 @@ image: sunny_room2.jpg
 bottom_small_image1: sunny_room_balcony1.jpg
 bottom_small_image2: sunny_room_balcony2.jpg
 bottom_small_image3: sunny_room1.jpg
-
+order: "2"
 ---
 ### 設備&服務
 房間約3.4坪，2面開窗，可遠眺都蘭山，房間有冷氣、電扇、獨立筒雙人床墊、彈簧下床墊、防蠻抗菌枕、純棉or排汗透氣床組、WiFi、吹風機、和式桌、閱讀燈、衣櫃、木質地板、拖鞋、免費單車、電腦、陽台、旅遊諮詢

@@ -4,7 +4,6 @@ title: Green Lotus Room
 nav-menu: true
 image: green_lotus_room1.jpg
 order: "3"
-
 ---
 ### Amenities
 The room features a fan, table,  air-conditioning, wooden floors. A bicycle can be used for free.
