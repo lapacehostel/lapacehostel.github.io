@@ -14,7 +14,7 @@ phone: 0952-136857  (10:00~22:00)
 
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
-tiles-count: 6
+tiles-count: 100
 
 # social settings
 
