@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  其 他 & 特別服務
+title:  其他 & 特別服務
 nav-menu: true
 ---
 ### 加床

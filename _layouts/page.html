@@ -25,6 +25,15 @@
 		</header>
 		{% if page.image %}<span class="image main"><img src="{{ site.baseurl }}/assets/images/{{ page.image }}" alt="" /></span>{% endif %}
 		{{ content }}
+{% unless page.name == "additional_information.md"}}
+	{% assign lang = page.dir %}
+  {% if lang == "/en/" %}
+	<a href="{% link en/additional_information.md %}" >Additional Information</a>
+{% else %}
+	<a href="{% link additional_information.md %}" >其他 & 特別服務</a>
+{% endif %}
+<br></br>
+{% endunless %}
     {% if page.bottom_large_image %}
     <span class="image fit">
       <a style="border-bottom: unset" href="{{ site.baseurl }}/assets/images/{{ page.bottom_large_image }}">
