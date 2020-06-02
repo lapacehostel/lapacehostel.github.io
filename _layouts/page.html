@@ -25,7 +25,7 @@
 		</header>
 		{% if page.image %}<span class="image main"><img src="{{ site.baseurl }}/assets/images/{{ page.image }}" alt="" /></span>{% endif %}
 		{{ content }}
-{% unless page.name == "additional_information.md"}}
+{% unless page.name == "additional_information.md" %}
 	{% assign lang = page.dir %}
   {% if lang == "/en/" %}
 	<a href="{% link en/additional_information.md %}" >Additional Information</a>
