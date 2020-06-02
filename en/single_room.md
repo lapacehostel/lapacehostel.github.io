@@ -4,6 +4,7 @@ title: Single Room
 nav-menu: true
 image: single_room1.jpg
 bottom_small_image1: single_room2.jpg
+order: "4"
 
 ---
 ### Amenities

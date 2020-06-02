@@ -2,6 +2,7 @@
 layout: page
 title: Additional Information
 nav-menu: true
+order: "100"
 ---
 ### Extra Bed
 * weekdays : 500/1 person

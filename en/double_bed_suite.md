@@ -4,6 +4,7 @@ title: Double beds Suite
 nav-menu: true
 image: double_bed_suite1.jpg
 bottom_small_image1: double_bed_suite2.jpg
+order: "1"
 
 ---
 ### Amenities
