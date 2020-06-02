@@ -2,7 +2,7 @@
 layout: page
 title:  其他 & 特別服務
 nav-menu: true
-order: "100"
+order: "900"
 ---
 ### 加床
 * 平/假日 : 500/1 人
